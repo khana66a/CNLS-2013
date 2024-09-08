@@ -1,0 +1,221 @@
+body {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	background-color:#5ba0d6;
+}
+* {margin:0px;padding:0px;}
+.clear{clear:both;}
+
+h1
+{
+	color:White;
+	font-style:italic;
+}
+
+#container {
+	margin: 0px auto;
+	text-align: left;
+	width: 979px;
+}
+#header {
+	background-image:url(flyer.images/header.jpg);
+	width:979px;
+	height:165px;
+	display:block;
+}
+#border {
+	background-image:url(flyer.images/border.gif);
+	background-repeat: repeat-y;
+	width:979px;
+}
+#main {
+	background-image:url(flyer.images/contentbg.gif);
+	background-color:#abe4fe;
+	margin: 0px 12px 0px 10px;
+	background-repeat: repeat-x;
+}
+#left {
+	width:261px;
+	float:left;
+	display:inline;
+	background-image:url(flyer.images/contentbg.gif);
+	background-color:#abe4fe;
+	
+}
+#right {
+	float:left;
+	width:870px;
+	
+}
+
+#universityLogo
+{
+	
+	border-width:2px;
+	width: 150px;
+	height: 100px;
+	vertical-align:middle;
+	background-color:#abe4fe;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin-left:80px;	
+	
+}
+
+#universityLogoLeftText
+{	
+	display:block;
+	margin-left:68px;
+	width: 10px;
+	height: 100px;
+	text-align:center;
+}
+
+#universityLogoRightText
+{
+	margin-left:182px;
+	width: 10px;
+	height: 100px;
+	text-align:center;
+}
+
+#LogoAndTextContainer
+{
+	margin-left:12px;
+	width:261px;
+	height:102px;
+}
+/***************** Content ***********************/
+.content {
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.content h3 {
+	background-image:url(flyer.images/welcome.gif);
+	background-repeat:no-repeat;
+	width:520px;
+	height:33px;
+	text-indent:700px;
+	overflow:hidden;
+	border-bottom: 1px dashed #2e2304;
+	margin: 10px 0px 15px 0px;
+	padding: 0px 0px 10px 0px;
+}
+.content p {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	color: #003a65;
+	padding: 10px 0px 0px 6px;
+	font-weight:900;
+}
+.content a {
+	color:#2e260f;
+}
+.content a:hover {
+	color:#cf0002;
+}
+
+/***************** Menu ***********************/
+#menu {
+	background-image:url(flyer.images/menu.gif);
+	width:261px;
+	height:430px;
+	margin-left:12px;
+}
+#menu ul {
+	padding: 30px 0px 0px 0px;
+	width:220px;
+	margin-left:15px;
+}
+#menu li {
+	background-image: url(flyer.images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-bottom: 1px dotted #2e2304;
+	list-style-type: none;
+	padding: 4px 30px 4px 0px;
+	text-align:right;
+}
+#menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: 900;
+	color: #2e260f;
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+#menu a:hover {
+	color:#c40000;
+}
+.lastchild{
+	border-bottom: none !important;
+}
+#menubottom {
+	background-image:url(flyer.images/menubottom.jpg);
+	background-repeat:no-repeat;
+	width:261px;
+	height:76px;
+	margin-left:12px;
+}
+#menubottom ul {
+	padding: 20px 0px 0px 0px;
+	width:240px;
+	margin-left:15px;
+}
+#menubottom li {
+	float:left;
+	display:inline;
+	width:77px;
+	text-align:center;
+}
+#menubottom a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight: bolder;
+	font-size:10px;
+	color: #6e6b53;
+	text-transform: uppercase;
+}
+#menubottom a:hover {
+	color:#c40000;
+}
+/***************** Footer ***********************/
+#footer {
+	background-color:#8bcaef;
+	background-image:url(flyer.images/borderfooter.gif);
+	height:120px;
+	width:979px;
+}
+#footerend {
+	background-image:url(flyer.images/borderfooterend.gif);
+	background-repeat: no-repeat;
+	width:979px;
+	height:9px;
+	display:block;
+}
+#copyright {
+	background-image:url(flyer.images/copyright.jpg);
+	background-repeat:no-repeat;
+	width:220px;
+	height:43px;
+	display:inline;
+	margin-left:22px;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+	color: #463d16;
+	padding: 30px 20px 0px 20px;
+	text-align:center;
+}
+#copyright a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #463d16;
+}

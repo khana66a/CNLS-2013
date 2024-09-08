@@ -1,0 +1,72 @@
+% Please use this sample.tex file.
+%============================================
+\documentstyle[12pt]{article}
+\renewcommand\floatpagefraction{0.9}
+\renewcommand{\baselinestretch}{1.}
+\topmargin 0.3in
+\newcommand{\marg}[1]{\marginpar{\raggedright\scriptsize#1}}
+\parskip=10pt
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+\setlength{\evensidemargin}{0.0in}
+\setlength{\oddsidemargin}{0.0in}
+\begin{document}
+\pagestyle{empty}
+\begin{center}
+\begin{large}
+{\bf Title of the Paper}
+\end{large}
+\end{center}
+
+\vskip0.4in
+\begin{center}
+{\large \bf\underline{The name of First Author} and The Name of second Author}\\
+Line1: Address of the First two Authors if they have the same address.\\
+Line 2\\
+Line 3\\
+email: \\
+\end{center}
+
+\begin{center}
+{\large \bf Name of the Third Author}\\
+Line 1:Adress of the Third Author\\
+Line 2\\
+Line 3\\
+email: 
+\end{center}
+
+\bigskip
+\centerline {{\bf ABSTRACT}}
+\bigskip
+
+Here, please put your own Abstract. It should not be more than one PAGE.
+
+Example of an Abstract: 
+
+The class of complex modified Korteweg-de Vries (CMKdV) equations has many
+applications. One form of the CMKdV equation has been used to create models 
+for the nonlinear evolution of plasma waves, for the propagation of transverse 
+waves in a molecular chain, and for a generalized elastic solid.
+Another form of the CMKdV equation has been used for the traveling-wave and
+for a double homoclinic orbit \cite{Herbst_Ablowitz_Ryan}.
+
+In this paper we introduce sequential and parallel split-step Fourier methods
+for numerical simulations of the above equation.
+The parallel methods are implemented on the Origin 2000 multiprocessor computer.
+Our numerical experiments have shown that the finite difference and the
+inverse scattering methods give accurate results and considerable speedup.
+
+
+
+\begin{thebibliography}{1}
+
+\bibitem{Herbst_Ablowitz_Ryan} B. M. Herbst, M. J. Ablowitz and E. Ryan,
+Numerical homoclinic instabilities and the complex modified Korteweg-de Vries eq
+uation,
+{\sl Comput. Phys. Commun.}, {\bf 65} (1991),
+137-142.
+
+
+\end{thebibliography}
+
+\end{document}
